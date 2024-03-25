@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.img-custom {
+    width: 300px; /* You can set the dimensions to whatever you want */
+    height: 300px;
+    object-fit: cover;
+}
+.btn-nav{
+    width: 140px;
+    min-height: 100px !important;
+    padding: 8px;
+    background-color: transparent;
+    text-decoration:none !important;
+    color: #ffffff;
+    display: inline-block;
+    transition: transform .2s;
+}
+a.btn-nav:hover{
+    color:white;
+    transform: scale(1.5);
+}
+a h6{
+    padding-top: 1px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10px;
+}
+a img{
+    padding-top: 1px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-custom{
+    background-image: linear-gradient(to bottom right, #ffff00, #00b7ff);
+}
+
+.bg-filter{
+    background-image: linear-gradient(to bottom right, #3c7388, #8c8c8f);
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
